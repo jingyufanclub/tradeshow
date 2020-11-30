@@ -1,0 +1,36 @@
+.Likes {
+  border-top: 2px solid #999;
+  height: 100%;
+  color:#444;
+  background-color: white;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.Likes-sharing-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 40px);
+  grid-template-rows: 30px;
+  justify-items: start;
+  align-items: start;
+  margin: 20px 20px 10px 20px;
+}
+
+.Likes-count, .Likes-caption {
+  margin: 0 20px;
+  text-align: left;
+
+  p {
+    margin: 0
+  }
+}
+
+.Likes-caption {
+  margin-top: 10px;
+  font-weight: 300;
+}

@@ -1,0 +1,41 @@
+.Loading {
+
+  img {
+    width: 75vw;
+    max-width: 600px;
+  }
+}
+
+@keyframes blink2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0
+  }
+}
+
+@keyframes blink1 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+#loading1 {
+  animation: blink2 1000ms infinite steps(1, end);
+}
+
+#loading2 {
+  animation: blink1 1000ms infinite steps(1, end);
+  animation-delay: 1000ms;
+  opacity: 0;
+}
